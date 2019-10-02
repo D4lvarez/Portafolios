@@ -1,0 +1,28 @@
+/* Colors:
+    White (#FFF): Background page.
+    Rich Black (#00171F): Icons.
+    Prussian Blue (#003459): Titles and headers.
+    Majorelle Blue (#454ADE): buttons and navbar.
+    Maastricht Blue (#022B3A): borders.  */
+
+.navbar {
+    background: #454ADE;
+    border-bottom: #022B3A solid 3px;
+}
+
+.nav-link {
+    color: beige
+}
+
+.title {
+    color: #003459;
+}
+
+.logo {
+    width: 35px;
+    height: 35px;
+}
+
+.nav-link:hover {
+    color: black;
+}
