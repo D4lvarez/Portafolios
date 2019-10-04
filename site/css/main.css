@@ -23,12 +23,17 @@
         height: 35px;
     }
     
-    .nav-link:hover {
-        color: black;
-    }
-    
     .carousel {
         height: 100vh;
+    }
+    
+    #icono {
+        width: 16px;
+        height: 16px;
+    }
+    
+    .nav-link:hover {
+        color: black;
     }
     
     @media(max-width:1500px) {
@@ -51,9 +56,29 @@
         }
     }
     
+    @media(max-width:765px) {
+        .carousel {
+            margin-top: 15px;
+            height: 450px;
+        }
+        .carousel-item {
+            height: 495px;
+        }
+    }
+    
     @media(max-width:700px) {
         .carousel {
             margin-top: 15px;
+            height: 220px;
+        }
+        .carousel-item {
+            height: 200px;
+        }
+    }
+    
+    @media(max-width:360px) {
+        .carousel {
+            margin-top: 20px;
             height: 220px;
         }
         .carousel-item {
