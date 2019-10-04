@@ -30,3 +30,33 @@
     .carousel {
         height: 100vh;
     }
+    
+    @media(max-width:1500px) {
+        .carousel {
+            margin-top: 15px;
+            height: 500px;
+        }
+        .carousel-item {
+            height: 100vh;
+        }
+    }
+    
+    @media(max-width:800px) {
+        .carousel {
+            margin-top: 15px;
+            height: 450px;
+        }
+        .carousel-item {
+            height: 520px;
+        }
+    }
+    
+    @media(max-width:700px) {
+        .carousel {
+            margin-top: 15px;
+            height: 220px;
+        }
+        .carousel-item {
+            height: 200px;
+        }
+    }
