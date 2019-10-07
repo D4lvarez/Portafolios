@@ -41,10 +41,27 @@
         margin: auto;
         text-align: center;
         margin-top: 2rem;
+
     }
 
     .Sobremi .card-text {
         text-align: left;
+    }
+
+    .Sobremi article{
+
+        height: 300px;
+    }
+
+    .tab-content{
+
+        padding: 10px;
+    }
+
+    .list-group{
+
+        padding: 10px;
+        margin-left: 10px;
     }
 
     @media(max-width:1500px) {
