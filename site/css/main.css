@@ -23,7 +23,7 @@
         height: 35px;
     }
     
-    .carousel {
+    .carousel-item {
         height: 100vh;
     }
     
@@ -34,6 +34,17 @@
     
     .nav-link:hover {
         color: black;
+    }
+
+    .Sobremi{
+
+        margin: auto;
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .Sobremi .card-text{
+        text-align: left;
     }
     
     @media(max-width:1500px) {
