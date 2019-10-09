@@ -4,139 +4,137 @@
     Prussian Blue (#003459): Titles and headers.
     Majorelle Blue (#454ADE): buttons and navbar.
     Maastricht Blue (#022B3A): borders.  */
-
+    /* Seccion de inicio y banner */
+    
     .navbar {
         background: #454ADE;
         border-bottom: #022B3A solid 5px;
     }
-
+    
     .nav-link {
         color: beige
     }
-
+    
     .title {
         color: #003459;
     }
-
+    
     .logo {
         width: 35px;
         height: 35px;
     }
-
+    
     .carousel-item {
         height: 100vh;
     }
-
+    
     #icono {
         width: 16px;
         height: 16px;
     }
-
+    
     .nav-link:hover {
         color: black;
     }
-
+    /* Seccion Sobre mi junto con certificados */
+    
     .Sobremi {
-
         margin: auto;
         text-align: center;
-        margin-top: 2rem;
-
+        padding: 10px;
+        margin-top: 3rem;
     }
-
+    
     .Sobremi .card-text {
         text-align: left;
     }
-
-    .Sobremi article{
-
+    
+    .Sobremi article {
         height: 300px;
     }
-
-    .tab-content{
-
+    
+    .link-certificado {
+        color: #454ADE;
+        text-decoration: none;
+    }
+    
+    .link-certificado:hover {
+        color: black;
+    }
+    
+    .tab-content {
         padding: 10px;
     }
-
-    .list-group{
-
+    
+    .list-group {
         padding: 10px;
         margin-left: 10px;
     }
-
+    
     @media(max-width:1500px) {
         .carousel {
             margin-top: 15px;
             height: 500px;
         }
-
         .carousel-item {
             height: 100vh;
         }
     }
-
+    
     @media(max-width:800px) {
         .carousel {
             margin-top: 15px;
             height: 450px;
         }
-
         .carousel-item {
             height: 520px;
         }
     }
-
+    
     @media(max-width:765px) {
         .carousel {
             margin-top: 15px;
             height: 450px;
         }
-
         .carousel-item {
             height: 495px;
         }
     }
-
+    
     @media(max-width:700px) {
         .carousel {
             margin-top: 15px;
             height: 220px;
         }
-
         .carousel-item {
             height: 200px;
         }
-
         .Sobremi {
             margin-top: 0.5rem;
         }
     }
-
+    
     @media(max-width:360px) {
         .carousel {
             margin-top: 20px;
             height: 220px;
         }
-
         .carousel-item {
             height: 200px;
         }
-
         .Sobremi {
             margin-top: 0.5rem;
         }
     }
-
+    
     @media(max-width:320px) {
         .carousel {
             margin-top: 20px;
             height: 200px;
         }
-
         .carousel-item {
             height: 210px;
         }
-
         .Sobremi {
             margin-top: 0.5rem;
         }
