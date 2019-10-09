@@ -125,6 +125,10 @@
         .Sobremi {
             margin-top: 0.5rem;
         }
+        .modal-content img {
+            height: 50px;
+            width: 200px;
+        }
     }
     
     @media(max-width:320px) {
