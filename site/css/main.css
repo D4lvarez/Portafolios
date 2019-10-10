@@ -71,6 +71,31 @@
         margin-left: 10px;
     }
     
+    .list-group a.active {
+        background-color: #454ADE;
+    }
+    
+    .iconos_lenguajes {
+        height: 32px;
+        width: 32px;
+    }
+
+    #lenguajes::before{
+        content: "Lenguajes de programación";
+    }
+
+    #frontend::before{
+        content: "Desarrollo Frontend";
+    }
+
+    #backend::before{
+        content: "Desarrollo Backend";
+    }
+
+    #database::before{
+        content: "Bases de Datos";
+    }
+    
     @media(max-width:1500px) {
         .carousel {
             margin-top: 15px;
@@ -111,6 +136,41 @@
         }
         .Sobremi {
             margin-top: 0.5rem;
+        }
+    }
+
+    @media(max-width:550px){
+
+        #lenguajes::before{
+            content: " ";
+        }
+        
+        #lenguajes::after{
+            content: url("../img/icons/codigo.png");
+        }
+
+        #frontend::before{
+            content: " ";
+        }
+        
+        #frontend::after{
+            content: url("../img/icons/frontend.png");
+        }
+
+        #backend::before{
+            content: " ";
+        }
+        
+        #backend::after{
+            content: url("../img/icons/backend.png");
+        }
+
+        #database::before{
+            content: " ";
+        }
+        
+        #database::after{
+            content: url("../img/icons/database.png");
         }
     }
     
