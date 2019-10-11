@@ -12,7 +12,9 @@
     }
     
     .nav-link {
-        color: beige
+        color: beige;
+        margin-right: 3px;
+        margin-left: 3px;
     }
     
     .title {
@@ -44,9 +46,14 @@
         padding: 10px;
         margin-top: 3rem;
     }
+
+    .bio{
+        background: rgba(0, 23, 31, 0.20);
+    }
     
     .Sobremi .card-text {
-        text-align: left;
+        margin-left: 18px;
+        text-align: justify;
     }
     
     .Sobremi article {
