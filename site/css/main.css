@@ -4,6 +4,21 @@
     Prussian Blue (#003459): Titles and headers.
     Majorelle Blue (#454ADE): buttons and navbar.
     Maastricht Blue (#022B3A): borders.  */
+
+    /* Fonts */
+@font-face{
+    font-family: 'Nunito';
+    src: url('Fonts/Nunito/Nunito-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face{
+    font-family: 'Space Mono';
+    src: url('Fonts/Space_Mono/SpaceMono-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
     /* Seccion de inicio y banner */
     
     .navbar {
@@ -18,6 +33,20 @@
     }
     
     .title {
+        font-family: 'Nunito', sans-serif;
+        font-size: 92px;
+        line-height: 128px;
+        letter-spacing: 0;
+        color: #454ADE;
+    }
+    #subtitle{
+        font-family: 'Nunito', sans-serif;
+        font-size: 24px;
+        color: #003459;
+    }
+    .text{
+        font-family: 'Space Mono', monospace;
+        font-size: 24px;
         color: #003459;
     }
     
@@ -28,6 +57,10 @@
     
     .carousel-item {
         height: 100vh;
+    }
+
+    .carousel-caption{
+        margin-bottom: 260px;
     }
     
     #icono {
@@ -43,17 +76,13 @@
     .Sobremi {
         margin: auto;
         text-align: center;
-        padding: 10px;
+        padding: 70px;
         margin-top: 3rem;
-    }
-
-    .bio{
-        background: rgba(0, 23, 31, 0.20);
     }
     
     .Sobremi .card-text {
-        margin-left: 18px;
-        text-align: justify;
+        margin-right: 18px;
+        text-align: left;
     }
     
     .Sobremi article {
