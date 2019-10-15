@@ -33,19 +33,19 @@
     }
     
     .title {
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Space Mono', sans-serif;
         font-size: 92px;
         line-height: 128px;
-        letter-spacing: 0;
+        letter-spacing: 1;
         color: #454ADE;
     }
     #subtitle{
-        font-family: 'Nunito', sans-serif;
+        font-family: 'Space Mono', sans-serif;
         font-size: 24px;
         color: #003459;
     }
     .text{
-        font-family: 'Space Mono', monospace;
+        font-family: 'Nunito', monospace;
         font-size: 24px;
         color: #003459;
     }
@@ -119,7 +119,6 @@
     #lenguajes::before{
         content: "Lenguajes de programación";
     }
-
     #frontend::before{
         content: "Desarrollo Frontend";
     }
