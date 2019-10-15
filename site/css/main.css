@@ -133,12 +133,18 @@
     }
     
     @media(max-width:1500px) {
-        .carousel {
-            margin-top: 15px;
-            height: 500px;
+        .carousel-caption {
+            margin-bottom: 0px;
         }
-        .carousel-item {
-            height: 100vh;
+        .carousel-inner{
+            max-height: 432px;
+        }
+        .carousel-item{
+            max-height: 432px;
+        }
+
+        .Sobremi{
+            margin-top: 0;
         }
     }
     
@@ -210,13 +216,16 @@
         }
     }
     
-    @media(max-width:360px) {
-        .carousel {
-            margin-top: 20px;
-            height: 220px;
+    @media(max-width:380px) {
+        .carousel-caption {
+            margin-top: 100px;
         }
-        .carousel-item {
-            height: 200px;
+        .carousel-inner{
+            margin-top: 4rem;
+            height: 432px;
+        }
+        .carousel-item{
+            height: 432px;
         }
         .Sobremi {
             margin-top: 0.5rem;
