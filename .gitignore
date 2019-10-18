@@ -1,5 +1,7 @@
 # Ignore everything in this directory
 *.ttf
 *.txt
+*.zip
+*.rar
 # Except this file
 !.gitignore

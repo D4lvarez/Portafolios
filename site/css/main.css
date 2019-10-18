@@ -19,82 +19,101 @@
     font-weight: 400;
     font-style: normal;
 }
+
+@font-face{
+    font-family: 'RobotoMono';
+    src: url('Fonts/RobotoMono-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
     /* Seccion de inicio y banner */
-    
-    .navbar {
-        background: #454ADE;
+.navbar {
+        background: whitesmoke;
         border-bottom: #022B3A solid 5px;
     }
     
-    .nav-link {
-        color: beige;
+.nav-link {
+        font-family: "Space Mono";
+        font-size: 18px;
+        color: #454ADE;
         margin-right: 3px;
         margin-left: 3px;
     }
     
-    .title {
-        font-family: 'Space Mono', sans-serif;
+.title {
+        font-family: 'RobotoMono', monospace;
         font-size: 92px;
         line-height: 128px;
         letter-spacing: 1;
         color: #454ADE;
     }
-    #subtitle{
-        font-family: 'Space Mono', sans-serif;
+#subtitle{
+        font-family: 'RobotoMono', monospace;
         font-size: 24px;
         color: #003459;
     }
-    .text{
-        font-family: 'Nunito', monospace;
+.text{
+        font-family: 'Nunito';
         font-size: 24px;
-        color: #003459;
+        color: #00171F;
     }
     
-    .logo {
+.logo {
         width: 35px;
         height: 35px;
     }
     
-    .carousel-item {
+.carousel-item {
         height: 100vh;
     }
 
-    .carousel-caption{
+.carousel-caption{
         margin-bottom: 260px;
     }
     
-    #icono {
+#icono {
         width: 16px;
         height: 16px;
     }
     
-    .nav-link:hover {
+.nav-link:hover {
         color: black;
     }
     /* Seccion Sobre mi junto con certificados */
     
-    .Sobremi {
+.Sobremi {
         margin: auto;
         text-align: center;
-        padding: 70px;
-        margin-top: 3rem;
+        padding: 60px;
+        margin-top: 3.1rem;
+    }
+
+.Sobremi .card-img{
+        margin-top: 100px;
     }
     
-    .Sobremi .card-text {
-        margin-right: 18px;
+.Sobremi .card-text {
+        margin-right: 65px;
         text-align: left;
+        width: 300px;
     }
-    
-    .Sobremi article {
-        height: 300px;
+
+    .Certificados {
+        font-family: 'RobotoMono'; 
     }
-    
-    .link-certificado {
+    .link-certificado{
         color: #454ADE;
-        text-decoration: none;
+        font-size: 20px;
+    }
+    .btn-link{
+        color: #454ADE;
     }
     
-    .link-certificado:hover {
+.link-certificado:hover {
         color: black;
     }
     
@@ -109,6 +128,24 @@
     
     .list-group a.active {
         background-color: #454ADE;
+    }
+
+    .Proyectos {
+        margin: auto;
+        text-align: center;
+        padding: 60px;
+        margin-top: 2rem;
+    }
+    
+    .Proyectos h2{
+        text-align: left;
+    }
+
+    .titles-projects{
+        font-family: 'Space Mono', monospace;
+        font-size: 40px;
+        letter-spacing: 0;
+        color: #003459;
     }
     
     .iconos_lenguajes {
