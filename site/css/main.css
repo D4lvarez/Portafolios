@@ -44,13 +44,21 @@ body{
         margin-left: 3px;
     }
     
-.title {
+#title {
         font-family: 'RobotoMono', monospace;
         font-size: 92px;
         line-height: 128px;
         letter-spacing: 1;
         color: #454ADE;
     }
+
+.title{
+    font-family: 'RobotoMono', monospace;
+        font-size: 50px;
+        letter-spacing: 1;
+        color: #454ADE;
+}
+
 #subtitle{
         font-family: 'RobotoMono', monospace;
         font-size: 24px;
@@ -92,14 +100,17 @@ body{
         margin-top: 3.1rem;
     }
 
+
+
 .Sobremi .card-img{
         margin-top: 100px;
     }
     
 .Sobremi .card-text {
+    margin-top: 50px;
         margin-right: 65px;
         text-align: left;
-        width: 300px;
+        width: 480px;
     }
 
     .Certificados {
