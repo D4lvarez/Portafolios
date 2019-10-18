@@ -100,15 +100,13 @@ body{
         margin-top: 3.1rem;
     }
 
-
-
 .Sobremi .card-img{
-        margin-top: 100px;
+        margin-top: 50px;
+        margin-left: 35px;
     }
     
 .Sobremi .card-text {
-    margin-top: 50px;
-        margin-right: 65px;
+        
         text-align: left;
         width: 480px;
     }
