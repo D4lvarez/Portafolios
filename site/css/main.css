@@ -51,7 +51,6 @@
 .title{
     font-family: 'RobotoMono', monospace;
         font-size: 50px;
-        letter-spacing: 1;
         color: #454ADE;
 }
 
@@ -62,7 +61,7 @@
     }
 .text{
         font-family: 'Montserrat';
-        font-size: 21px;
+        font-size: 20px;
         color: #00171F;
     }
     
@@ -97,7 +96,7 @@
     }
 
 .Sobremi .card-img{
-        margin-top: 50px;
+        
         margin-left: 35px;
     }
     
