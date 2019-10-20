@@ -3,44 +3,46 @@
     Rich Black (#00171F): Icons.
     Prussian Blue (#003459): Titles and headers.
     Majorelle Blue (#454ADE): buttons and navbar.
-    Maastricht Blue (#022B3A): borders.  */
+    Maastricht Blue (#022B3A): borders.  
+    WhiteSmoke: background texts*/
 
     /* Fonts */
-@font-face{
-    font-family: 'Montserrat';
-    src: url('Fonts/Montserrat-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Montserrat';
+        src: url('Fonts/Montserrat-Regular.ttf');
+        font-weight: 400;
+        font-style: normal;
+    }
 
-@font-face{
-    font-family: 'Space Mono';
-    src: url('Fonts/Space_Mono/SpaceMono-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'Space Mono';
+        src: url('Fonts/Space_Mono/SpaceMono-Regular.ttf');
+        font-weight: 400;
+        font-style: normal;
+    }
 
-@font-face{
-    font-family: 'RobotoMono';
-    src: url('Fonts/RobotoMono-Regular.ttf');
-    font-weight: 400;
-    font-style: normal;
-}
+    @font-face {
+        font-family: 'RobotoMono';
+        src: url('Fonts/RobotoMono-Regular.ttf');
+        font-weight: 400;
+        font-style: normal;
+    }
+
     /* Seccion de inicio y banner */
-.navbar {
+    .navbar {
         background: whitesmoke;
         border-bottom: #022B3A solid 5px;
     }
-    
-.nav-link {
+
+    .nav-link {
         font-family: "Space Mono";
         font-size: 18px;
         color: #454ADE;
         margin-right: 3px;
         margin-left: 3px;
     }
-    
-#title {
+
+    #title {
         font-family: 'RobotoMono', monospace;
         font-size: 92px;
         line-height: 128px;
@@ -48,90 +50,93 @@
         color: #454ADE;
     }
 
-.title{
-    font-family: 'RobotoMono', monospace;
+    .title {
+        font-family: 'RobotoMono', monospace;
         font-size: 50px;
         color: #454ADE;
-}
+    }
 
-#subtitle{
+    #subtitle {
         font-family: 'Montserrat', monospace;
         font-size: 24px;
         color: #003459;
     }
-.text{
+
+    .text {
         font-family: 'Montserrat';
         font-size: 20px;
         color: #00171F;
     }
-    
-.logo {
+
+    .logo {
         width: 35px;
         height: 35px;
     }
-    
-.carousel-item {
+
+    .carousel-item {
         height: 100vh;
     }
 
-.carousel-caption{
+    .carousel-caption {
         margin-bottom: 260px;
     }
-    
-#icono {
+
+    #icono {
         width: 16px;
         height: 16px;
     }
-    
-.nav-link:hover {
+
+    .nav-link:hover {
         color: black;
     }
+
     /* Seccion Sobre mi junto con certificados */
-    
-.Sobremi {
+
+    .Sobremi {
         margin: auto;
         text-align: center;
         padding: 60px;
         margin-top: 3.1rem;
     }
 
-.Sobremi .card-img{
-        
+    .Sobremi .card-img {
+
         margin-left: 35px;
     }
-    
-.Sobremi .card-text {
-        
+
+    .Sobremi .card-text {
+
         text-align: left;
         max-width: 480px;
     }
 
     .Certificados {
-        font-family: 'RobotoMono'; 
+        font-family: 'RobotoMono';
     }
-    
-    .link-certificado{
+
+    .link-certificado {
         font-family: 'Montserrat';
         color: #454ADE;
         font-size: 20px;
     }
-    .btn-link{
+
+    .btn-link {
         color: #454ADE;
     }
-    
-.link-certificado:hover {
+
+    .link-certificado:hover {
         color: black;
     }
-    
+
     .tab-content {
         padding: 10px;
     }
-    
+
     .list-group {
         padding: 10px;
         margin-left: 10px;
     }
-    
+
     .list-group a.active {
         background-color: #454ADE;
     }
@@ -142,150 +147,181 @@
         padding: 60px;
         margin-top: 2rem;
     }
-    
-    .Proyectos h2{
+
+    .Proyectos h2 {
         text-align: left;
     }
 
-    .titles-projects{
+    .Proyectos .card-text {
+        text-align: left;
+        margin-left: 35px;
+        padding: 10px;
+        background: whitesmoke;
+    }
+
+    .Proyectos .card-img {
+        padding: 10px;
+    }
+
+    .Proyectos .carousel-item {
+        height: 480px;
+    }
+
+
+
+    .titles-projects {
         font-family: 'Space Mono', monospace;
         font-size: 40px;
         letter-spacing: 0;
         color: #003459;
+        text-shadow: 2px 1px 25px #00171F;
     }
-    
+
     .iconos_lenguajes {
         height: 32px;
         width: 32px;
     }
 
-    #lenguajes::before{
+    #lenguajes::before {
         content: "Lenguajes de programación";
     }
-    #frontend::before{
+
+    #frontend::before {
         content: "Desarrollo Frontend";
     }
 
-    #backend::before{
+    #backend::before {
         content: "Desarrollo Backend";
     }
 
-    #database::before{
+    #database::before {
         content: "Bases de Datos";
     }
-    
+
     @media(max-width:1500px) {
         .carousel-caption {
             margin-bottom: 0px;
         }
-        .carousel-inner{
-            max-height: 432px;
-        }
-        .carousel-item{
+
+        .carousel-inner {
             max-height: 432px;
         }
 
-        .Sobremi{
+        .carousel-item {
+            max-height: 432px;
+        }
+
+        .Sobremi {
             margin-top: 0;
         }
     }
-    
+
     @media(max-width:800px) {
         .carousel {
             margin-top: 15px;
             height: 450px;
         }
+
         .carousel-item {
             height: 520px;
         }
     }
-    
+
     @media(max-width:765px) {
         .carousel {
             margin-top: 15px;
             height: 450px;
         }
+
         .carousel-item {
             height: 495px;
         }
     }
-    
+
     @media(max-width:700px) {
         .carousel {
             margin-top: 15px;
             height: 220px;
         }
+
         .carousel-item {
             height: 200px;
         }
+
         .Sobremi {
             margin-top: 0.5rem;
         }
     }
 
-    @media(max-width:550px){
+    @media(max-width:550px) {
 
-        #lenguajes::before{
+        #lenguajes::before {
             content: " ";
         }
-        
-        #lenguajes::after{
+
+        #lenguajes::after {
             content: url("../img/icons/codigo.png");
         }
 
-        #frontend::before{
+        #frontend::before {
             content: " ";
         }
-        
-        #frontend::after{
+
+        #frontend::after {
             content: url("../img/icons/frontend.png");
         }
 
-        #backend::before{
+        #backend::before {
             content: " ";
         }
-        
-        #backend::after{
+
+        #backend::after {
             content: url("../img/icons/backend.png");
         }
 
-        #database::before{
+        #database::before {
             content: " ";
         }
-        
-        #database::after{
+
+        #database::after {
             content: url("../img/icons/database.png");
         }
     }
-    
+
     @media(max-width:380px) {
         .carousel-caption {
             margin-top: 100px;
         }
-        .carousel-inner{
+
+        .carousel-inner {
             margin-top: 4rem;
             height: 432px;
         }
-        .carousel-item{
+
+        .carousel-item {
             height: 432px;
         }
+
         .Sobremi {
             margin-top: 0.5rem;
         }
+
         .modal-content img {
             height: 50px;
             width: 200px;
         }
     }
-    
+
     @media(max-width:320px) {
         .carousel {
             margin-top: 20px;
             height: 200px;
         }
+
         .carousel-item {
             height: 210px;
         }
+
         .Sobremi {
             margin-top: 0.5rem;
         }
