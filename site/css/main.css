@@ -306,6 +306,11 @@
             margin-top: 0.5rem;
         }
 
+        .Sobremi .card-img{
+            margin-top: 5px;
+            margin-left: 0;
+        }
+
         .modal-content img {
             height: 50px;
             width: 200px;

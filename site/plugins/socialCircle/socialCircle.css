@@ -1,0 +1,107 @@
+/*
+.socialCircle-item {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #333;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+*/
+
+.socialCircle-container {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.socialCircle-center {
+  width: 180px;
+  height: 180px;
+  background: #022B3A;
+  margin: 50%;
+  position: absolute;
+  text-align: center;
+  color: #ffffff;
+  font-size: 80px;
+  cursor: pointer;
+}
+
+
+/*NUEVO PARA COLORES*/
+/*facebook*/
+.socialCircle-item-f {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #29487d;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+/*twitter*/
+.socialCircle-item-t {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #1da1f2;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;    
+}
+/*instagram*/
+.socialCircle-item-i {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #dd2a7b;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;   
+}
+/*github*/
+.socialCircle-item-git {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #333;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+/*linkedin*/
+.socialCircle-item-lin {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #0676a8;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
+/*pinteres*/
+.socialCircle-item-p {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  background: #c8232c;
+  margin: 50%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 30px;
+  cursor: pointer;
+}
