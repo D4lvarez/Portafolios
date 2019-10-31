@@ -18,6 +18,24 @@ svg {
     margin-top: -185px;
 }
 
+.facebook-svg {
+    background-image: url('/proyecto/img/svg/icons8-facebook-50.svg');
+    width: 100px;
+    height: 100px;
+}
+
+.github-svg {
+    background-image: url('/proyecto/img/svg/icons8-github-50.svg');
+    width: 100px;
+    height: 100px;
+}
+
+.instagram-svg {
+    background-image: url('/proyecto/img/svg/icons8-instagram-50.svg');
+    width: 100px;
+    height: 100px;
+}
+
 @media (max-width: 800px) {
     svg {
         display: block;
