@@ -1,6 +1,12 @@
 window.addEventListener('load', function() {
+    /**FUNCION DEL LA HAMBURGUESA */
+    function AnimarBoton() {
+        var element = document.getElementById('hamburger-6');
+        element.classList.toggle('is-active');
 
+    };
 
+    /**LA BARRA INFERIO DEL NAVEGADOR */
     var button = document.getElementById("imagen"),
 
         animation = document.getElementById("animation"),
@@ -23,6 +29,7 @@ window.addEventListener('load', function() {
         }
 
     }, false);
+    /**CUANDO HACER SCROLL */
     window.addEventListener('scroll', function() {
         var tamañoy = Math.floor(window.scrollY);
 
@@ -35,4 +42,13 @@ window.addEventListener('load', function() {
         }
 
     });
+
+    var botonHamburguesa = document.querySelector('.hamburger');
+
+
+    botonHamburguesa.addEventListener('click', function() {
+        AnimarBoton();
+    });
+
+
 });
