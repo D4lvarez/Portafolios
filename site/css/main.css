@@ -268,52 +268,92 @@ footer {
 
 }
 
-.link-social{
-
-}
-
-#lenguajes::before {
-  content: "Lenguajes de programación";
-}
-
-#frontend::before {
-  content: "Desarrollo Frontend";
-}
-
-#backend::before {
-  content: "Desarrollo Backend";
-}
-
-#database::before {
-  content: "Bases de Datos";
+.footer{
+    padding-top: 10px;
 }
 
 @media (max-width: 1500px) {
-  .carousel-caption {
-    margin-bottom: 0px;
+    .carousel-item {
+      height: 100vh;
+  }
+  #title{
+     font-size: 124.89px;
   }
 
-  .carousel-inner {
-    max-height: 432px;
+  #subtitle{
+      font-size: 40px;
   }
 
-  .carousel-item {
-    max-height: 432px;
+  .text-about{
+      font-size: 25.89px;
+  }
+  .Sobremi .card-img{
+      padding: 50px;
+      margin-top: -55px;
+  }
+  .title{
+      font-size: 57.89px;
+      left: 455px;
   }
 
-  .Sobremi {
-    margin-top: 0;
+  .text-about{
+      left: -100px;
+  }
+}
+
+@media (max-width: 1440px) {
+    .carousel-item {
+      height: 100vh;
+  }
+  #title{
+     font-size: 124.89px;
+  }
+
+  #subtitle{
+      font-size: 40px;
+  }
+
+  .title{
+      font-size: 57.89px;
+      left: 555px;
+  }
+
+  .text-about{
+      left: -70px;
   }
 }
 
 @media (max-width: 800px) {
-  .carousel {
-    margin-top: 15px;
-    height: 450px;
+    .carousel-item {
+      height: 500px;
+  }
+  #title{
+     font-size: 84.89px;
+     left: 32px;
+     top: 150px;
   }
 
-  .carousel-item {
-    height: 520px;
+  #subtitle{
+      font-size: 30px;
+      left: 82px;
+      top: 300px;
+  }
+
+  .title{
+      font-size: 57.89px;
+      left: 220px;
+  }
+    
+  .Sobremi .card-img{
+      top: 60px;
+      left: -295px;
+      padding: 100px;
+  }
+
+  .text-about{
+      top: 475px;
+      left: 60px;
+      font-size: 20.89px;
   }
 }
 
