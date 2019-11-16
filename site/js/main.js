@@ -1,30 +1,22 @@
 $(document).ready(function() {
     // codigo para animateScroll
-    $('#btnInicio').click(function() {
-        $('#Inicio').animatescroll();
+    $('#btnHome').click(function() {
+        $('#Home').animatescroll();
     });
-    $('#btnSobre').click(function() {
-        $('#Sobremi').animatescroll();
+    $('#btnAbout').click(function() {
+        $('#About').animatescroll();
     });
-    $('#btnProyectos').click(function() {
-        $('#Proyectos').animatescroll();
+    $('#btnProjects').click(function() {
+        $('#Projects').animatescroll();
     });
     $('#btnContacto').click(function() {
         $('#Contacto').animatescroll();
     });
-    
+
 
     // ocultar menu desplegable
     $('.nav-link').on('click ', function() {
         $('.navbar-collapse').collapse('hide');
-    });
-
-    //codigo para circle_social
-    $(".socialCircle-center").socialCircle({
-        rotate: 0,
-        radius: 200,
-        circleSize: 2,
-        speed: 500
     });
 
     //codigo para carousel
@@ -44,7 +36,7 @@ $(document).ready(function() {
         container: this._body,
 
         // 'nonn', 'spin', 'fade', 'zoom', or 'spin-inverse'
-        effect: 'zoom',
+        effect: 'spin',
 
         // enable the back to top button
         enabled: true,
@@ -56,7 +48,7 @@ $(document).ready(function() {
         // icon
         icon: 'fa fa-chevron-up',
 
-        // margins 
+        // margins
         marginX: 20,
         marginY: 20,
 

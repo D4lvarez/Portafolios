@@ -19,12 +19,7 @@
   font-style: normal;
 }
 
-@font-face {
-  font-family: "RobotoMono";
-  src: url("Fonts/RobotoMono-Regular.ttf");
-  font-weight: 400;
-  font-style: normal;
-}
+/* Tag Selectors */
 
 footer {
   height: 136px;
@@ -45,36 +40,9 @@ footer {
   color: #ffffff;
 }
 
-/* Seccion de inicio y banner */
-.navbar {
-  background: #23374d;
-}
+/* Tag Selectors */
 
-.nav-link {
-  font-family: "LoraRegular";
-  font-style: normal;
-  font-weight: bold;
-  line-height: 17px;
-  font-size: 18px;
-  margin-right: 3px;
-  margin-left: 3px;
-  color: #e5e5e5;
-}
-
-#title {
-  position: absolute;
-  width: 1057px;
-  height: 169px;
-  left: 172px;
-  top: 222px;
-
-  font-family: "LoraRegular", monospace;
-  font-size: 164.89px;
-  line-height: 211px;
-  font-weight: normal;
-  color: #1089ff;
-}
-
+/* General Classes */
 .title {
   /* font-family: "RobotoMono", monospace;
   font-size: 50px;
@@ -90,6 +58,60 @@ footer {
   font-size: 67.89px;
   line-height: 87px;
 
+  color: #1089ff;
+}
+
+.text {
+  font-family: "Merri";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 108x;
+  text-align: left;
+  color: #000000;
+}
+
+/* General Classes */
+
+/* NavBar Section */
+.navbar {
+  background: #23374d;
+}
+
+.nav-link {
+  font-family: "LoraRegular";
+  font-style: normal;
+  font-weight: bold;
+  line-height: 17px;
+  font-size: 18px;
+  margin-right: 3px;
+  margin-left: 3px;
+  color: #e5e5e5;
+}
+
+.logo {
+  width: 35px;
+  height: 35px;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+/* NavBar Section */
+
+/* Home Section */
+
+#title {
+  position: absolute;
+  width: 1057px;
+  height: 169px;
+  left: 172px;
+  top: 222px;
+
+  font-family: "LoraRegular", monospace;
+  font-size: 164.89px;
+  line-height: 211px;
+  font-weight: normal;
   color: #1089ff;
 }
 
@@ -109,6 +131,33 @@ footer {
   color: #e5e5e5;
 }
 
+.carousel-item {
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(22, 34, 42, 0) 0%, #23374d 100%),
+    #16222a;
+}
+
+.carousel-caption {
+  margin-bottom: 260px;
+}
+
+/* Home Section */
+
+/* About Section */
+
+.About {
+  margin: auto;
+  text-align: center;
+  padding: 60px;
+  margin-top: 3.1rem;
+  height: 833px;
+}
+
+.About .card-text {
+  text-align: left;
+  /* max-width: 480px; */
+}
+
 .text-about {
   position: absolute;
   width: 548px;
@@ -124,50 +173,8 @@ footer {
 
   color: #000000;
 }
-.text {
-  font-family: "Merri";
-  font-style: normal;
-  font-weight: 300;
-  font-size: 108x;
-  text-align: left;
-  color: #000000;
-}
 
-.logo {
-  width: 35px;
-  height: 35px;
-}
-
-.carousel-item {
-  height: 100vh;
-  background: linear-gradient(180deg, rgba(22, 34, 42, 0) 0%, #23374d 100%),
-    #16222a;
-}
-
-.carousel-caption {
-  margin-bottom: 260px;
-}
-
-#icono {
-  width: 16px;
-  height: 16px;
-}
-
-.nav-link:hover {
-  color: black;
-}
-
-/* Seccion Sobre mi */
-
-.Sobremi {
-  margin: auto;
-  text-align: center;
-  padding: 60px;
-  margin-top: 3.1rem;
-  height: 833px;
-}
-
-.Sobremi .card-img {
+.About .card-img {
   position: absolute;
   width: 603px;
   height: 529px;
@@ -177,43 +184,12 @@ footer {
   left: -20px;
 }
 
-.Sobremi .card-text {
-  text-align: left;
-  /* max-width: 480px; */
-}
+/* About Section */
 
-.Certificados {
-  font-family: "RobotoMono";
-}
 
-.link-certificado {
-  font-family: "Montserrat";
-  color: #454ade;
-  font-size: 20px;
-}
+/* Projects Section */
 
-.btn-link {
-  color: #454ade;
-}
-
-.link-certificado:hover {
-  color: black;
-}
-
-.tab-content {
-  padding: 10px;
-}
-
-.list-group {
-  padding: 10px;
-  margin-left: 10px;
-}
-
-.list-group a.active {
-  background-color: #454ade;
-}
-
-.Proyectos {
+.Projects {
   margin: auto;
   text-align: center;
   padding: 60px;
@@ -221,20 +197,24 @@ footer {
   height: 833px;
 }
 
-.Proyectos .card {
+.Projects .card {
   width: 340px;
 }
 
-.Proyectos h2 {
+.Projects h2 {
   text-align: left;
 }
 
-.Proyectos .card-img {
+.Projects .card-img {
   padding: 10px;
 }
 
-.Proyectos .carousel-item {
+.Projects .carousel-item {
   height: 290px;
+}
+
+.card-deck {
+  margin-top: 90px;
 }
 
 .titles-projects {
@@ -248,13 +228,12 @@ footer {
   color: #23374d;
 }
 
-.card-deck {
-  margin-top: 90px;
-}
+/* Projects Section */
 
-.iconos_lenguajes {
-  height: 32px;
-  width: 32px;
+/* Footer Section */
+
+.footer{
+    padding-top: 10px;
 }
 
 .social {
@@ -268,9 +247,7 @@ footer {
 
 }
 
-.footer{
-    padding-top: 10px;
-}
+/* Footer Section */
 
 @media (max-width: 1500px) {
     .carousel-item {
@@ -287,7 +264,7 @@ footer {
   .text-about{
       font-size: 25.89px;
   }
-  .Sobremi .card-img{
+  .About .card-img{
       padding: 50px;
       margin-top: -55px;
   }
@@ -343,8 +320,8 @@ footer {
       font-size: 57.89px;
       left: 220px;
   }
-    
-  .Sobremi .card-img{
+
+  .About .card-img{
       top: 60px;
       left: -295px;
       padding: 100px;
@@ -378,7 +355,7 @@ footer {
     height: 200px;
   }
 
-  .Sobremi {
+  .About {
     margin-top: 0.5rem;
   }
 }
@@ -397,11 +374,11 @@ footer {
     height: 432px;
   }
 
-  .Sobremi {
+  .About {
     margin-top: 0.5rem;
   }
 
-  .Sobremi .card-img {
+  .About .card-img {
     margin-top: 5px;
     margin-left: 0;
   }
@@ -422,7 +399,7 @@ footer {
     height: 210px;
   }
 
-  .Sobremi {
+  .About {
     margin-top: 0.5rem;
   }
 }
