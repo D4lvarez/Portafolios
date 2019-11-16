@@ -1,11 +1,3 @@
-/* Colors:
-    White (#FFF): Background page.
-    Rich Black (#00171F): Icons.
-    Prussian Blue (#003459): Titles and headers.
-    Majorelle Blue (#454ADE): buttons and navbar.
-    Maastricht Blue (#022B3A): borders.  
-    WhiteSmoke: background texts*/
-
 /* Fonts */
 @font-face {
   font-family: "Merri";
@@ -237,19 +229,6 @@ footer {
   text-align: left;
 }
 
-/* .Proyectos .card-text {
-  text-align: left;
-  margin-left: 35px;
-  padding: 10px;
-  background: whitesmoke;
-
-  font-family: Merriweather;
-font-style: normal;
-font-weight: 300;
-font-size: 20.7458px;
-line-height: 26px;
-} */
-
 .Proyectos .card-img {
   padding: 10px;
 }
@@ -259,7 +238,6 @@ line-height: 26px;
 }
 
 .titles-projects {
-  /* font-size: 40px; */
 
   font-family: "LoraRegular";
   font-style: normal;
@@ -291,7 +269,7 @@ line-height: 26px;
 }
 
 .link-social{
-   
+
 }
 
 #lenguajes::before {
@@ -362,40 +340,6 @@ line-height: 26px;
 
   .Sobremi {
     margin-top: 0.5rem;
-  }
-}
-
-@media (max-width: 550px) {
-  #lenguajes::before {
-    content: " ";
-  }
-
-  #lenguajes::after {
-    content: url("../img/icons/codigo.png");
-  }
-
-  #frontend::before {
-    content: " ";
-  }
-
-  #frontend::after {
-    content: url("../img/icons/frontend.png");
-  }
-
-  #backend::before {
-    content: " ";
-  }
-
-  #backend::after {
-    content: url("../img/icons/backend.png");
-  }
-
-  #database::before {
-    content: " ";
-  }
-
-  #database::after {
-    content: url("../img/icons/database.png");
   }
 }
 
