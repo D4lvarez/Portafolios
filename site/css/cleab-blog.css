@@ -1,7 +1,8 @@
 body {
     font-size: 20px;
     color: #212529;
-    font-family: Lora, 'Times New Roman', serif
+    font-family: Lora, 'Times New Roman', serif;
+    background-color: #fff;
 }
 
 p {
@@ -24,10 +25,10 @@ h6 {
 }
 
 a {
-    color: #212529;
+    color: #000000;
     -webkit-transition: all .2s;
     -moz-transition: all .2s;
-    transition: all .2s
+    transition: all .2s;
 }
 
 a:focus,
@@ -156,10 +157,10 @@ img::-moz-selection {
     #mainNav.is-fixed {
         position: fixed;
         top: -67px;
-        -webkit-transition: -webkit-transform .2s;
-        -moz-transition: -moz-transform .2s;
-        transition: transform .2s;
-        border-bottom: 1px solid #fff;
+        -webkit-transition: -webkit-transform .3s;
+        -moz-transition: -moz-transform .3s;
+        transition: transform .3s;
+        border-bottom: 3px solid rgb(0, 0, 0);
         background-color: rgba(255, 255, 255, .9)
     }
 
@@ -405,6 +406,7 @@ form .form-group:first-child .floating-label-form-group {
 hr {
     margin-top: 4.5rem !important;
     margin-bottom: 3.5rem !important;
+    color: #fff !important;
 }
 
 footer {
